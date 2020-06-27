@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;CAAG;;AAEzB,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,KAAK;CAAG;;AAE9B,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;CAAG",
+    "sources": [
+        "travels.component.sass"
+    ],
+    "names": [],
+    "file": "travels.component.css"
+}

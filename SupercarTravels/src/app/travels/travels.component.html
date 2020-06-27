@@ -1,0 +1,19 @@
+
+    <div class="row mx-1">
+      <div *ngFor="let travel of products" class="col-4 mb-5">
+        
+        <div class="card">
+          <img src="{{travel.img}}" class="card-image" alt="trip image">
+          <div class="card-body">
+            <h2 class="card-title">{{travel.name}}</h2>
+            <p class="card-text">
+              {{travel.description}}</p>
+              <p class="card-text"><b>Duration:</b> {{travel.duration}}</p>
+              <p class="card-text"><b>Start Date:</b> {{travel.startDate}}</p>
+            <h3 class="card-text">Price: {{travel.price}} €</h3>
+            <div class="text-center">
+              <button class="btn btn-lg" (click)="addToCart(travel)">Book this tour</button>
+            </div>
+          </div>
+        </div>
+      </div>

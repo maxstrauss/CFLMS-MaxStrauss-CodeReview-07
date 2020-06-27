@@ -1,0 +1,17 @@
+<div class="text-center">
+
+  <h3 class="p-3">Cart</h3>
+
+  <div class="cart-item" *ngFor="let item of items">
+    <div>
+      <img src="{{item.img}}" class="card-img" alt="event picture">
+    </div>
+    <div>
+      <span><b>Trip: </b>{{ item.name }} </span>
+      <span><b>Price: </b> {{ item.price }} €</span>
+    </div>
+  </div>
+
+  <div class="p-2"><b>Total price (including discounts): </b>{{ price }} €</div>
+  
+    <button class="button" type="submit">BOOK</button>

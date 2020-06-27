@@ -1,0 +1,22 @@
+.jumbotron {
+  background: url("/assets/banner.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 25vw;
+}
+
+#welcometext {
+  position: absolute;
+  color: white;
+  font-size: 3vw;
+  margin: 2%;
+}
+
+#navbarNavAltMarkup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=navbar.component.css.map */
